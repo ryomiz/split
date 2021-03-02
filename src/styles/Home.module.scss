@@ -22,3 +22,17 @@
 .txt {
   line-height: 3;
 }
+
+@media screen and (max-width: 800px) {
+  .main {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .main_left {
+    position: relative;
+    width: 100%;
+  }
+  .main_right {
+    width: 100%;
+  }
+}
