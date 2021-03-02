@@ -1,0 +1,41 @@
+{
+  "name": "techlog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "fix": "stylelint --fix src/* && prettier src/*  --write",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "next": "10.0.6",
+    "prettier-stylelint": "^0.4.2",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^20.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.27",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
+    "@typescript-eslint/parser": "^4.15.0",
+    "destyle.css": "^2.0.2",
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "prettier": "^2.2.1",
+    "sass": "^1.32.7",
+    "stylelint": "^13.10.0",
+    "stylelint-config": "^0.1.1",
+    "stylelint-config-recess-order": "^2.3.0",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-prettier": "^1.1.2",
+    "stylelint-scss": "^3.19.0",
+    "typescript": "^4.1.5"
+  }
+}

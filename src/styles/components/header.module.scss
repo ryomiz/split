@@ -1,0 +1,12 @@
+.header {
+  $height: 50px;
+
+  position: fixed;
+  width: 100%;
+  height: $height;
+  background: #333;
+  h1 {
+    font-weight: bold;
+    line-height: $height;
+  }
+}

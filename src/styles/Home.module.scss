@@ -1,0 +1,24 @@
+.main {
+  display: flex;
+  justify-content: flex-end;
+  color: #333;
+}
+
+.main_left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100vh;
+  background-image: url('../../public/img/test.jpeg');
+  background-size: cover;
+}
+
+.main_right {
+  width: 50%;
+  background: linear-gradient(#fff, #888);
+}
+
+.txt {
+  line-height: 3;
+}
